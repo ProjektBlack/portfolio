@@ -1,0 +1,89 @@
+/* Accent */
+.mochick-orange {
+    color:orangered
+}
+
+/* Sizing */
+.vh-5 {
+    height: 7.5vh
+}
+
+.vh-90 {
+    height: 90vh
+}
+
+.vh-200 {
+    height: 200vh;
+}
+
+/* Font */
+body {
+    font-family: 'Lora', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+}
+
+p, .lead, .text-muted, .small, .dropdown-item {
+    font-family: 'Lora', serif;
+}
+
+.box-shadow-navbar {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    /* color: white; */
+    font-size: xx-large;
+    margin-right: 0;
+}
+
+/* Section Styling */
+.page {
+    /* border: solid 1px red; */
+    height: 92.5vh;
+    margin-top: 7.5vh;
+}
+
+#career {
+    scroll-margin-top: 7.5vh;
+}
+
+/* Bootstrap Corrections */
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+
+.navbar-nav .nav-link.active {
+    color: orangered
+}
+
+.nav-link:hover {
+    color: orangered
+}
+
+.nav-link {
+    /* color: white */
+}
+
+.h1 {
+    margin-bottom: 0;
+}
+
+.h-10 {
+    height: 10%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.polaroid {
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.tech-text {
+    font-family: monospace;
+    color: orangered
+}
