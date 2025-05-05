@@ -43,7 +43,6 @@ p, .lead, .text-muted, .small, .dropdown-item {
 .page {
     /* border: solid 1px red; */
     height: 92.5vh;
-    margin-top: 7.5vh;
 }
 
 #career {
@@ -86,4 +85,30 @@ p, .lead, .text-muted, .small, .dropdown-item {
 .tech-text {
     font-family: monospace;
     color: orangered
+}
+
+#feature-image {
+    width: 50%;
+    height: auto;
+}
+
+#literature-char {
+    font-size: x-large;
+}
+
+/* Media Queries */
+
+@media (max-width: 430px) {
+    #feature-image {
+        width: 75% !important;
+        height: auto !important;
+    }
+
+    .feature-paragraph {
+        width: 100% !important;
+    }
+
+    .page {
+        height: 100%
+    }
 }
